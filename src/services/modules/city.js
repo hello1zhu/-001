@@ -1,6 +1,7 @@
-import ZHURequest from "../request"
+import hyRequest from "../request/index";
+
 export function getCityAll() {
-    return ZHURequest.get({
-            url:"/city/all"
-        })
-} 
+  return hyRequest.get({
+    url: '/city/all'
+  })
+}
